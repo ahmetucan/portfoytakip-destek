@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Portföy Takip</title>
+<style>
+  :root{--bg:#fff;--fg:#1a1a1a;--muted:#5c5c5c;--line:#e5e5e5;--accent:#1769aa;--card:#f7f7f8}
+  @media (prefers-color-scheme:dark){:root{--bg:#121214;--fg:#ececed;--muted:#9a9a9f;--line:#2a2a2e;--accent:#5aa9e6;--card:#1b1b1f}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:0 16px}
+  main{max-width:720px;margin:0 auto;padding:48px 0 72px}
+  h1{font-size:1.9rem;line-height:1.25;margin:0 0 6px}
+  h2{font-size:1.2rem;margin:38px 0 10px;padding-top:18px;border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:0;padding-top:0}
+  .sub{color:var(--muted);font-size:.9rem;margin:0 0 28px}
+  ul{padding-left:22px}li{margin:6px 0}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.92rem}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600}
+  .box{background:var(--card);border-radius:10px;padding:14px 18px;margin:18px 0}
+  a{color:var(--accent)}
+  .lang{margin-bottom:26px;font-size:.9rem}
+  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+  [hidden]{display:none}
+</style>
+</head>
+<body>
+<main>
+  <div class="lang"><a href="#tr">Türkçe</a> &nbsp;·&nbsp; <a href="#en">English</a></div>
+
+  <section id="tr">
+  <h1>Gizlilik Politikası</h1>
+  <p class="sub">Portföy Takip · Son güncelleme: 15 Kasım 2026</p>
+
+  <div class="box"><strong>Özet:</strong> Portföy Takip hesap açmanızı istemez, kimliğinizi tespit etmez ve portföy verilerinizi hiçbir sunucuya göndermez. Tüm varlık bilgileriniz yalnızca cihazınızda saklanır.</div>
+
+  <h2>Cihazınızda kalan veriler</h2>
+  <p>Aşağıdaki bilgiler yalnızca cihazınızın yerel depolama alanında tutulur. Bu veriler tarafımıza veya üçüncü taraflara <strong>iletilmez</strong>:</p>
+  <ul>
+    <li>Portföyünüze eklediğiniz varlıklar: tür, sembol, miktar, maliyet ve notlar</li>
+    <li>Toplam portföy değerinizin zaman içindeki geçmişi</li>
+    <li>Kurduğunuz fiyat uyarıları ve eşik değerleri</li>
+    <li>Dil, para birimi ve tema tercihleriniz</li>
+  </ul>
+  <p>Uygulamayı cihazınızdan sildiğinizde bu verilerin tamamı silinir. Yedekleme özelliğini kullanırsanız, oluşan yedek metnini nereye kaydedeceğinize yalnızca siz karar verirsiniz.</p>
+
+  <h2>Dış servislerle kurulan bağlantılar</h2>
+  <p>Güncel piyasa fiyatlarını ve haberleri göstermek için aşağıdaki servislere bağlanılır. Bu isteklerde kimliğinizi veya portföyünüzü açığa çıkaran hiçbir bilgi gönderilmez; yalnızca fiyatı sorgulanan sembol iletilir.</p>
+  <table>
+    <tr><th>Servis</th><th>Amaç</th></tr>
+    <tr><td>Yahoo Finance</td><td>Döviz kurları, altın ve BIST hisse fiyatları</td></tr>
+    <tr><td>CoinGecko</td><td>Kripto para fiyatları</td></tr>
+    <tr><td>ExchangeRate-API, Metals.dev</td><td>Yedek kur ve değerli maden fiyatları</td></tr>
+    <tr><td>BBC, Investing.com, Cointelegraph, MarketWatch, FXStreet</td><td>Finans haber başlıkları (RSS)</td></tr>
+    <tr><td>Google Cloud Vision</td><td>Yalnızca ekran görüntüsü aktarma özelliğinde — aşağıya bakınız</td></tr>
+  </table>
+
+  <h2>Kamera ve fotoğraflar</h2>
+  <p>Uygulama, başka bir yatırım uygulamasının ekran görüntüsünden varlıklarınızı otomatik aktarmanıza olanak tanır. Bu özelliği <strong>yalnızca siz başlattığınızda</strong>:</p>
+  <ul>
+    <li>Seçtiğiniz tek bir görüntü, metin tanıma (OCR) için Google Cloud Vision servisine gönderilir</li>
+    <li>Google, bu görüntüyü isteği yanıtlamak dışında kullanmaz ve kalıcı olarak saklamaz</li>
+    <li>Tanınan metin cihazınıza döner; görüntü tarafımızca hiçbir yerde saklanmaz</li>
+  </ul>
+  <p>Fotoğraf galerinize veya kameranıza yalnızca bu akış sırasında, izninizle erişilir. Bu özelliği hiç kullanmazsanız hiçbir görüntü cihazınızdan çıkmaz.</p>
+
+  <h2>Bildirimler</h2>
+  <p>Fiyat uyarıları cihazınızda yerel olarak oluşturulur. Uzaktan bildirim (push) altyapısı kullanılmaz; bildirim için cihaz kimliğiniz hiçbir sunucuya kaydedilmez.</p>
+
+  <h2>Toplanmayanlar</h2>
+  <ul>
+    <li>Hesap, e-posta, telefon veya herhangi bir kimlik bilgisi istenmez</li>
+    <li>Analitik, çökme raporlama veya reklam SDK'sı bulunmaz</li>
+    <li>Konum verisi kullanılmaz</li>
+    <li>Uygulamalar ve siteler arası takip (tracking) yapılmaz, veriler reklam amacıyla paylaşılmaz veya satılmaz</li>
+  </ul>
+
+  <h2>Çocukların gizliliği</h2>
+  <p>Uygulama 13 yaş altı kullanıcılara yönelik değildir ve kimseden kişisel bilgi toplamadığı için çocuklara ait veri de işlemez.</p>
+
+  <h2>Haklarınız</h2>
+  <p>Verileriniz yalnızca sizin cihazınızda bulunduğundan, erişim ve silme işlemleri tamamen sizin kontrolünüzdedir: uygulama içinden varlıkları silebilir veya uygulamayı kaldırarak tüm veriyi yok edebilirsiniz. Tarafımızda silinmesini talep edebileceğiniz bir kayıt tutulmaz.</p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika güncellenirse yukarıdaki tarih değiştirilir ve güncel metin bu adreste yayımlanır.</p>
+
+  <h2>İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:ahmetucan24@gmail.com">ahmetucan24@gmail.com</a></p>
+  </section>
+
+  <section id="en">
+  <h1 style="margin-top:56px">Privacy Policy</h1>
+  <p class="sub">Portföy Takip · Last updated: 15 November 2026</p>
+
+  <div class="box"><strong>Summary:</strong> Portföy Takip does not ask you to create an account, does not identify you, and never sends your portfolio data to any server. All of your holdings stay on your device.</div>
+
+  <h2>Data that stays on your device</h2>
+  <p>The following is stored only in your device's local storage and is <strong>never transmitted</strong> to us or to third parties:</p>
+  <ul>
+    <li>The holdings you add: type, symbol, quantity, cost and notes</li>
+    <li>The history of your total portfolio value over time</li>
+    <li>Price alerts and thresholds you configure</li>
+    <li>Your language, currency and theme preferences</li>
+  </ul>
+  <p>Deleting the app removes all of it. If you use the backup feature, you alone decide where the exported text is stored.</p>
+
+  <h2>External services</h2>
+  <p>To show live market prices and news the app contacts the services below. These requests contain no information that identifies you or reveals your portfolio — only the symbol being priced is sent.</p>
+  <table>
+    <tr><th>Service</th><th>Purpose</th></tr>
+    <tr><td>Yahoo Finance</td><td>Currency, gold and Borsa İstanbul equity prices</td></tr>
+    <tr><td>CoinGecko</td><td>Cryptocurrency prices</td></tr>
+    <tr><td>ExchangeRate-API, Metals.dev</td><td>Fallback FX and precious metal prices</td></tr>
+    <tr><td>BBC, Investing.com, Cointelegraph, MarketWatch, FXStreet</td><td>Financial news headlines (RSS)</td></tr>
+    <tr><td>Google Cloud Vision</td><td>Screenshot import feature only — see below</td></tr>
+  </table>
+
+  <h2>Camera and photos</h2>
+  <p>The app can import your holdings from a screenshot of another investment app. Only when <strong>you</strong> start this flow:</p>
+  <ul>
+    <li>The single image you choose is sent to Google Cloud Vision for text recognition (OCR)</li>
+    <li>Google does not use the image for any purpose other than answering the request, and does not retain it</li>
+    <li>The recognised text returns to your device; we never store the image anywhere</li>
+  </ul>
+  <p>Your photo library and camera are accessed only during this flow, with your permission. If you never use the feature, no image leaves your device.</p>
+
+  <h2>Notifications</h2>
+  <p>Price alerts are generated locally on your device. No remote push infrastructure is used and your device token is never registered with any server.</p>
+
+  <h2>What is not collected</h2>
+  <ul>
+    <li>No account, email, phone number or other identifier is requested</li>
+    <li>No analytics, crash reporting or advertising SDK is present</li>
+    <li>No location data is used</li>
+    <li>No cross-app or cross-site tracking; no data is shared or sold for advertising</li>
+  </ul>
+
+  <h2>Children's privacy</h2>
+  <p>The app is not directed at children under 13 and, as it collects no personal information from anyone, processes no children's data.</p>
+
+  <h2>Your rights</h2>
+  <p>Because your data lives only on your device, access and deletion are entirely under your control: remove holdings inside the app, or uninstall it to erase everything. We hold no records that you could ask us to delete.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the date above is updated and the current text is published at this address.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:ahmetucan24@gmail.com">ahmetucan24@gmail.com</a></p>
+  </section>
+
+  <footer>© 2026 Ahmet Ucan · <a href="./index.html">Destek / Support</a></footer>
+</main>
+</body>
+</html>
